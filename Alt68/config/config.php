@@ -20,8 +20,8 @@ return array(
         'configDir' => './vendor/smarty/configs/'
     ),
     'adminemail' => array(
-        'email' => 'alt68.alt68@gmail.com',
-        'password' => 'mnb500600'
+        'email' => 'adminemail@gmail.com',
+        'password' => 'password'
         )
 );
 ?>
