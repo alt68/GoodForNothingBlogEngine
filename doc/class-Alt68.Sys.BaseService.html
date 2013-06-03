@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Alt68\Sys\BaseService | GoodForNothingBlogEngine</title>
+
+	<script type="text/javascript" src="resources/combined.js?3715972085"></script>
+	<script type="text/javascript" src="elementlist.js?3272356842"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Alt68.html">Alt68<span></span></a>
+						<ul>
+				<li><a href="namespace-Alt68.Controllers.html">Controllers</a>
+						</li>
+				<li><a href="namespace-Alt68.Entities.html">Entities</a>
+						</li>
+				<li><a href="namespace-Alt68.Service.html">Service</a>
+						</li>
+				<li class="active"><a href="namespace-Alt68.Sys.html">Sys</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Alt68.Sys.BaseController.html">BaseController</a></li>
+				<li><a href="class-Alt68.Sys.BaseObject.html">BaseObject</a></li>
+				<li class="active"><a href="class-Alt68.Sys.BaseService.html">BaseService</a></li>
+				<li><a href="class-Alt68.Sys.Loader.html">Loader</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Alt68.Sys.html" title="Summary of Alt68\Sys"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class BaseService</h1>
+
+
+	<div class="description">
+	
+<p>Abstract Base Service class</p>
+
+<p>Parent of every service class</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Alt68.Sys.BaseObject.html"><span>Alt68\Sys\BaseObject</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Alt68\Sys\BaseService</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-Alt68.Service.BlogService.html">Alt68\Service\BlogService</a>, 
+			<a href="class-Alt68.Service.CommentService.html">Alt68\Service\CommentService</a>, 
+			<a href="class-Alt68.Service.CommonService.html">Alt68\Service\CommonService</a>, 
+			<a href="class-Alt68.Service.LoginService.html">Alt68\Service\LoginService</a>, 
+			<a href="class-Alt68.Service.SiteService.html">Alt68\Service\SiteService</a>
+	</div>
+
+
+
+
+
+
+	<div class="info">
+		<b>Abstract</b><br />
+		
+		<b>Namespace:</b> <a href="namespace-Alt68.html">Alt68</a>\<a href="namespace-Alt68.Sys.html">Sys</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-Alt68.Sys.BaseService.html#8-49" title="Go to source code">Alt68/Sys/BaseService.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Alt68.Sys.BaseService.html#29-32" title="Go to source code">__construct</a>( <span>Doctrine\ORM\EntityManager <var>$em</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Alt68.Sys.BaseObject.html#___construct">Alt68\Sys\BaseObject::__construct()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hasErrors" id="_hasErrors">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hasErrors">#</a>
+		<code><a href="source-class-Alt68.Sys.BaseService.html#34-47" title="Go to source code">hasErrors</a>( )</code>
+
+		<div class="description short">
+			
+<p>If any error occured, stores validator errors array to $_SESSION array and
+return true</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>If any error occured, stores validator errors array to $_SESSION array and
+return true</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Return true if error occured<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="em" id="$em">
+		<td class="attributes"><code>
+			protected  
+			Doctrine\ORM\EntityManager
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Alt68.Sys.BaseService.html#15-20" title="Go to source code"><var>$em</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$em" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Entitymanager object</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Entitymanager object</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="validator" id="$validator">
+		<td class="attributes"><code>
+			protected  
+			Validator
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Alt68.Sys.BaseService.html#22-27" title="Go to source code"><var>$validator</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$validator" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Validator</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Validator</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		GoodForNothingBlogEngine API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

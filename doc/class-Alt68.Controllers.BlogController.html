@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Alt68\Controllers\BlogController | GoodForNothingBlogEngine</title>
+
+	<script type="text/javascript" src="resources/combined.js?3715972085"></script>
+	<script type="text/javascript" src="elementlist.js?3272356842"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Alt68.html">Alt68<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-Alt68.Controllers.html">Controllers</a>
+						</li>
+				<li><a href="namespace-Alt68.Entities.html">Entities</a>
+						</li>
+				<li><a href="namespace-Alt68.Service.html">Service</a>
+						</li>
+				<li><a href="namespace-Alt68.Sys.html">Sys</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Alt68.Controllers.BlogController.html">BlogController</a></li>
+				<li><a href="class-Alt68.Controllers.CommentController.html">CommentController</a></li>
+				<li><a href="class-Alt68.Controllers.LoginController.html">LoginController</a></li>
+				<li><a href="class-Alt68.Controllers.SiteController.html">SiteController</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Alt68.Controllers.html" title="Summary of Alt68\Controllers"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class BlogController</h1>
+
+
+	<div class="description">
+	
+<p>This class controls CRUD activity for blogs</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Alt68.Sys.BaseObject.html"><span>Alt68\Sys\BaseObject</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-Alt68.Sys.BaseController.html"><span>Alt68\Sys\BaseController</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Alt68\Controllers\BlogController</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Alt68.html">Alt68</a>\<a href="namespace-Alt68.Controllers.html">Controllers</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-Alt68.Controllers.BlogController.html#16-184" title="Go to source code">Alt68/Controllers/BlogController.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Alt68.Controllers.BlogController.html#28-35" title="Go to source code">__construct</a>( <span>Doctrine\ORM\EntityManager <var>$entityManager</var></span>, <span>string <var>$action</var></span>, <span>array <var>$urlvalues</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new BlogService object for the controller</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new BlogService object for the controller</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$entityManager</var></dt>
+					<dd><code>Doctrine\ORM\EntityManager</code><br>$entityManager</dd>
+					<dt><var>$action</var></dt>
+					<dd><code>string</code><br>$action</dd>
+					<dt><var>$urlvalues</var></dt>
+					<dd><code>string</code><br>$urlvalues</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Alt68.Sys.BaseController.html#___construct">Alt68\Sys\BaseController::__construct()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="posts" id="_posts">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_posts">#</a>
+		<code><a href="source-class-Alt68.Controllers.BlogController.html#37-57" title="Go to source code">posts</a>( )</code>
+
+		<div class="description short">
+			
+<p>List all articles of user</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>List all articles of user</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="create" id="_create">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_create">#</a>
+		<code><a href="source-class-Alt68.Controllers.BlogController.html#59-88" title="Go to source code">create</a>( )</code>
+
+		<div class="description short">
+			
+<p>Create a blog entry</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a blog entry</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="read" id="_read">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_read">#</a>
+		<code><a href="source-class-Alt68.Controllers.BlogController.html#90-117" title="Go to source code">read</a>( )</code>
+
+		<div class="description short">
+			
+<p>Read a blog entry</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Read a blog entry</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="update" id="_update">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_update">#</a>
+		<code><a href="source-class-Alt68.Controllers.BlogController.html#119-157" title="Go to source code">update</a>( )</code>
+
+		<div class="description short">
+			
+<p>Update a blog entry</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Update a blog entry</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code><a href="source-class-Alt68.Controllers.BlogController.html#159-182" title="Go to source code">delete</a>( )</code>
+
+		<div class="description short">
+			
+<p>Delete a blog entry</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Delete a blog entry</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Alt68.Sys.BaseController.html#methods">Alt68\Sys\BaseController</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Alt68.Sys.BaseController.html#_ExecuteAction">ExecuteAction()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="blogService" id="$blogService">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Alt68.Service.BlogService.html">Alt68\Service\BlogService</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Alt68.Controllers.BlogController.html#21-26" title="Go to source code"><var>$blogService</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$blogService" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Blog service for the blog controller</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Blog service for the blog controller</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Alt68.Sys.BaseController.html#properties">Alt68\Sys\BaseController</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Alt68.Sys.BaseController.html#$action"><var>$action</var></a>, 
+			<a href="class-Alt68.Sys.BaseController.html#$em"><var>$em</var></a>, 
+			<a href="class-Alt68.Sys.BaseController.html#$isLogged"><var>$isLogged</var></a>, 
+			<a href="class-Alt68.Sys.BaseController.html#$loginService"><var>$loginService</var></a>, 
+			<a href="class-Alt68.Sys.BaseController.html#$smarty"><var>$smarty</var></a>, 
+			<a href="class-Alt68.Sys.BaseController.html#$urlvalues"><var>$urlvalues</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		GoodForNothingBlogEngine API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
